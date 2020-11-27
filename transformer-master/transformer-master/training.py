@@ -177,6 +177,7 @@ with tqdm(total=EPOCHS) as pbar:
 
     print("The best d_model is ",best_model)
     print("The best dropout is",best_dropout)
+    print("The best correct is",best_correct)
 
 
     # print('\r\n', loss_list)
